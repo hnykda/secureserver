@@ -1,1 +1,6 @@
-site_name: My Docs
+site_name: Secure Linux Server from scratch
+theme: readthedocs
+
+pages:
+ - Home: index.md
+ - Users: users.md 
