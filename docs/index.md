@@ -19,14 +19,14 @@ I am not going to go into much details around Linux environment, since I've alre
 
 ## What you should have before 
 * installed Linux distribution of your choice with root access to the shell (direct by connecting peripherals or indirect using e.g. SSH)
-* internet connection. In this guide we are going to assume the most common setup for servers - you are connected by Ethernet to your router which is connected to wall socket.
+* Internet connection. In this guide we are going to assume the most common setup for servers - you are connected by Ethernet to your router which is connected to wall socket.
 * approximately 2 hours of time
 
 ## What are we going to cover
 This guide is going to provide step-by-step solutions which cover:
 
 1. Users, sandboxing their environment from others (and mainly from root's), storing passwords
-2. General recommendations about installed software, controlling services, network settings
-3. SSH and keys, SSH guard service, firewall using `iptables`, port forwarding, SSL
+2. General recommendations about installed software, controlling services, network settings, port forwarding
+3. SSH and keys, SSH guard service, firewall using `iptables`, SSL
 4. Entropy used for encrypting and its sources
 5. Installing and securing web server `nginx`, sandboxing websites folders

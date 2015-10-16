@@ -3,4 +3,6 @@ theme: readthedocs
 
 pages:
  - Home: index.md
- - Users: users.md 
+ - Users: users.md
+ - Software: general.md 
+ - SSH: ssh.md
