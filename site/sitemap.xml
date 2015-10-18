@@ -4,7 +4,31 @@
     
     <url>
      <loc>None/</loc>
-     <lastmod>2015-10-16</lastmod>
+     <lastmod>2015-10-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/users/</loc>
+     <lastmod>2015-10-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/general/</loc>
+     <lastmod>2015-10-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/ssh/</loc>
+     <lastmod>2015-10-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     

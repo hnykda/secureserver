@@ -6,3 +6,4 @@ pages:
  - Users: users.md
  - Software: general.md 
  - SSH: ssh.md
+ - Web Server: nginx.md

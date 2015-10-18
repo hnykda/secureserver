@@ -102,4 +102,3 @@ Gateway=192.168.0.1
 ```
 
 Now you need to remove old non-static default profile `/etc/systemd/network/eth0.network`. Move it to your home folder so you can revert changes if something doesn't work.
-

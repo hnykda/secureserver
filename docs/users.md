@@ -10,14 +10,14 @@ For this purpose we will use package called `sudo` (from *superuser do*).
 
 Every file (and virtually *everything* is a file in Linux) specify permissions for owner, group and others.
 There are three types of permissions: *read*, *write* and *execute*. More about permissions can be found out
-e.g. [here](). 
+e.g. [here](http://linuxcommand.org/lts0070.php). 
 
 Before that, we need to explain some theory from elementary security and cryptography.
 
 ## Storing passwords
 Users are authenticated by passwords. We've learned from past that storing passwords cannot be done in plain text,
 since when someone steal this text, he automatically gets access to all accounts listed there. For that reason we
-[hash]() the passwords and store them in hashed form. Furthermore, the [salt]() is used while hashing. The file
+[hash](https://en.wikipedia.org/wiki/Hash_function) the passwords and store them in hashed form. Furthermore, the [salt](https://en.wikipedia.org/wiki/Salt_(cryptography)) is used while hashing. The file
 with stored hashes is usually in `/etc/passwd`. 
 
 For changing a password for a current user `passwd` is used. Type `passwd` and change the main *root* password to something reasonably strong.

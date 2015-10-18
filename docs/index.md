@@ -12,6 +12,8 @@ I enjoy programming and about two years ago it was obvious that I could get a lo
 
 Even though today out-of-box Linux distributions have quite good security, using all these technologies necessary brings some risk of attack against your server. Hence, it's crucial to know about vulnerabilities and try to defend yourself against possible attacks. I will try to give you examples of such cases and reason why you should apply according policy.
 
+Why to read this guide instead of hundreds of thousands other ones? Well, I try to give a very broad approach from beginning. Unlike one-shot short guides over there for a specific case I describe the whole process from the beginning. The pieces here should slot together.
+
 ## Used software
 As you could read in the header, as an operational system is chosen Linux. My working station is going to be Raspberry Pi with Arch Linux ARM distribution. Arch Linux is bleeding edge distribution which in nutshell means that we are going to use the most up-to-date technologies to this date (late 2015). Even though or examples are given for this specific Linux distribution it's good to mention that most of commands should be easily done even on other distributions. For example, package `systemd` is [used in all major distributions](https://en.wikipedia.org/wiki/Systemd#Adoption_and_reception) and hence you should be able to use it any where.
 
@@ -27,6 +29,5 @@ This guide is going to provide step-by-step solutions which cover:
 
 1. Users, sandboxing their environment from others (and mainly from root's), storing passwords
 2. General recommendations about installed software, controlling services, network settings, port forwarding
-3. SSH and keys, SSH guard service, firewall using `iptables`, SSL
-4. Entropy used for encrypting and its sources
+3. SSH and keys, SSH guard service, firewall using `iptables`, SSL, entropy used for encrypting and its sources
 5. Installing and securing web server `nginx`, sandboxing websites folders
